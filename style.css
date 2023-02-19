@@ -13,11 +13,12 @@ font-family: 'Sarala', sans-serif;
 
 .container {
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 header {
     display: flex;
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: #242a3a;
     align-items: center;
     justify-content: space-between;
@@ -25,16 +26,18 @@ header {
 
 #main-logo {
     height: 32px;
+    border-radius: 8px;
 }
 
 .container-menu ul {
     list-style: none;
+    column-gap: 26px;
 }
 
 .container-menu li {
     font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 700;
+    /* font-style: italic; */
+    font-weight: 500;
 }
 
 .container-menu , .menu-list {
@@ -43,5 +46,126 @@ header {
 
 .container-menu a {
     text-decoration: none;
+    font-weight: 500;
     color: white;
+}
+
+.container-menu span {
+    color: red;
+    font-weight: bolder;
+}
+
+.menu-list .sign-item {
+    font-weight: 800;
+}
+
+.link-sign {
+    padding: 4px 8px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.partners {
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 15px;
+}
+
+.partners img {
+    height: 22px;
+}
+
+.partners {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.container-partner {
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+}
+
+.partners div, .container-partner div {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #777777;
+}
+
+.main-content {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.main-content section {
+    display: flex;
+}
+
+.music-content {
+    padding: 60px 20px;
+}
+
+.item-notification {
+    display: inline;
+    background-color: #77777725;
+}
+
+.news {
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 12px;
+    background-image: url('./image/background-notification.png');
+}
+
+.notification {
+    color: black;
+    font-size: 12px;
+    font-weight: 800;
+    padding: 4px 16px 4px 4px;
+    border-radius: 0 12px 12px 0;
+}
+
+.music-image {
+    width: 70%;
+    padding: 60px 20px;
+    border-radius: 0 12px 12px 0;
+    background: linear-gradient(165deg, #38A2D6, #551138);
+}
+
+.music-image-container {
+    text-align: center;
+}
+
+.music-image img {
+    width: 70%;
+}
+
+h1 {
+    margin: 30px 0;
+    font-size: 42px;
+    font-family: 'Sarala', sans-serif;
+}
+
+.content-initial {
+    width: 60%;
+    font-size: 16px;
+    line-height: 1.4em;
+    margin-bottom: 30px;
+    font-family: 'Sarala', sans-serif;
+}
+
+.btn-app {
+    display: flex;
+}
+
+.content-btn {
+    display: flex;
+}
+
+.content-btn img {
+    height: 16px;
 }
