@@ -27,8 +27,8 @@
                 <nav>
                     <ul class="menu-list">
                         <li><a href="#music">Music</a><span> +</span></li>
-                        <li><a href="#">News</a><span> +</li>
-                        <li><a href="#">About</a><span> +</li>
+                        <li><a href="#news">News</a><span> +</li>
+                        <li><a href="#about-us">About</a><span> +</li>
                         <li><a href="#">Contacts</a><span> +</li>
                     </ul>
                 </nav>
@@ -50,11 +50,11 @@
                         <img src="./image/spotify.png" alt="Logo Spotify">
                     </a>
                 </div>
-                <div>Spotify</div>
+                <div><a href="#">Spotify</a></div>
             </div>
 
             <div class="container-partner">
-                harman/kardon
+                <a href="#">harman/kardon</a>
             </div>
             
             <div class="container-partner">
@@ -64,12 +64,12 @@
                     </a>
                 </div>
                 <div>
-                    Youtube
+                    <a href="#">Youtube</a>
                 </div>
             </div>
 
             <div class="container-partner">
-                Aol.
+                <a href="#">Aol.</a>
             </div>
                 
             <div class="container-partner">
@@ -79,7 +79,7 @@
                     </a>
                 </div>
                 <div>
-                    Music
+                    <a href="#">Music</a>
                 </div>
             </div>
         </div>
@@ -120,7 +120,7 @@
                         <div class="content-btn">
                             <div>
                                 <a href="#">
-                                    <img src="./image/play-alt.png" alt="Botão de Iniciar">
+                                    <img src="./image/play-alt.png" alt="Button started">
                                 </a>
                             </div>
                             <div>
@@ -133,16 +133,130 @@
                 </div>
                 <div class="music-image">
                     <div class="music-image-container">
-                        <img src="./image/modal-1.webp" alt="">
+                        <img src="./image/modal-1.webp" alt="Photo app streaming">
                     </div>
                 </div>
             </section>
 
-            <section>
-                
+            <section class="container-section-2" id="news">
+                <div class="container-news-image">
+                    <img src="./image/people-music.png" class="people-listening" alt="Music people">
+                </div>
+                <div class="container-news">
+                    <div class="brand-container">
+                        <h2>cawesi</h2>
+                    </div>
+    
+                    <div>
+                        <div class="description-music-title">
+                            Never Stop 
+                            
+                            <br>
+
+                            Listening
+                        </div>
+    
+                        <p class="paragraph-section2">
+                            Enjoy audio content where, when amd how you want it.
+                        </p>
+
+                        <p class="paragraph-section2">
+                            Music App Available On Hundreds Of Portable Devices.
+                        </p>
+                    </div>
+    
+                    <div class="container-equalizer">
+                        <div>
+                            <img src="./image/musica-icon.png" class="music-icon-player" alt="">
+                        </div>
+                        <div class="equalizer-box">
+                            <img src="./image/qualizer-1.png" class="equalizer-icon" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about-us">
+                <div class="container-about">
+                    <div class="container-about-us-main">
+                        <h3>Your Music Partner</h3>
+
+                        <p>
+                            We help you understand the music of designer and 
+                            
+                            <br>
+
+                            drive transformation from the inside out.
+                        </p>
+
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+                <div class="container-about-image">
+                    <img src="./image/music_about-us.png" alt="devices interface">
+                </div>
+            </section>
+
+            <section id="contacts">
+
+                <form>
+                    <fieldset>
+                        <legend>Contact us</legend>
+
+                        <div class="forms-item-group">
+                            <div>
+                                <label for="name">Name: </label>
+                                <input type="text" name="name" id="name" required>
+                            </div>
+
+                            <div>
+                                <label for="lastname">Last Name: </label>
+                                <input type="text" name="lastname" id="lastname" required>
+                            </div>
+                        </div>
+
+                        <div class="forms-item-group">
+                            <div>
+                                <label for="age">Age: </label>
+                                <input type="number" name="age" id="age" required>
+                            </div>
+
+                            <div>
+                                <label for="phone">Phone: </label>
+                                <input type="tel" name="phone" id="phone" required>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="forms-item-group email-item-topic">
+                            <div>
+                                <label for="email">E-mail: </label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                        </div>
+
+                        <textarea name="comentary" placeholder="Leave your comment" id="comentary" cols="30" rows="10" required></textarea>
+
+                        <input type="submit" value="Send" class="btn-send">
+                    </fieldset>
+                </form>
+
+                <div class="subscribe-container">
+                    <p class="started">
+                        STARTED FOR FREE
+                    </p>
+
+                    <p class="create-account">
+                        CREATE A NEW ACCOUNT.
+                    </p>
+
+                    <p class="login-container">
+                        Alredy A Member? <strong>Log in</strong>
+                    </p>
+
+                </div>
             </section>
         </main>
-
     </div>
     
 </body>

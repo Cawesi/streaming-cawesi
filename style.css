@@ -36,7 +36,6 @@ header {
 
 .container-menu li {
     font-family: 'Roboto', sans-serif;
-    /* font-style: italic; */
     font-weight: 500;
 }
 
@@ -89,6 +88,11 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: small;
     font-weight: 600;
+    color: #777777;
+}
+
+.container-partner a {
+    text-decoration: none;
     color: #777777;
 }
 
@@ -154,7 +158,7 @@ h1 {
     width: 60%;
     font-size: 16px;
     line-height: 1.4em;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-family: 'Sarala', sans-serif;
 }
 
@@ -193,4 +197,168 @@ h1 {
 
 button:hover {
     cursor: pointer;
+}
+
+.container-section-2 {
+    width: 100%;
+    display: flex;
+}
+
+.container-news-image {
+    padding: 30px 10px 30px 50px;
+}
+
+.people-listening {
+    width: 600px;
+}
+
+.container-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+}
+
+.container-news .music-icon-player {
+    width: 55px;
+}
+
+.container-news .equalizer-icon {
+    width: 200px;
+    height: 50px;
+}
+
+.container-news h2 {
+    color: #38A2D6;
+    font-size: small;
+}
+
+.brand-container {
+    margin-bottom: 5px;
+}
+
+.description-music-title {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.paragraph-section2 {
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+.container-equalizer {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.equalizer-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #424242;
+}
+
+#about-us {
+    background-color: #475886;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+}
+
+.container-about-image img {
+    width: 360px;
+}
+
+.container-about h3 {
+    font-size: 38px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.container-about p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container-about button {
+    padding: 8px 15px;
+    font-weight: 700;
+    color: white;
+    border: 1px solid white;
+    background-color: #475886;
+}
+
+.container-about-image {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-top: 40px;
+}
+
+fieldset {
+    padding: 25px 40px;
+}
+
+form legend {
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+
+input {
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2;
+    border-left: 0;
+    border-color: black;
+    display: block;
+}
+
+.forms-item-group {
+    display: flex;
+    gap: 50px;
+    margin: 25px 0;
+}
+
+#email {
+    width: 405px;
+}
+
+.email-item-topic {
+    margin-bottom: 45px;
+}
+
+textarea {
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.btn-send {
+    color: white;
+    padding: 8px 15px;
+    font-weight: 700;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: #242a3a;
+}
+
+.subscribe-container .started {
+    font-size: small;
+}
+
+.subscribe-container .create-account {
+    font-size: 38px;
+}
+
+.subscribe-container .login-container span {
+    color: #475886;
 }
