@@ -29,7 +29,7 @@
                         <li><a href="#music">Music</a><span> +</span></li>
                         <li><a href="#news">News</a><span> +</li>
                         <li><a href="#about-us">About</a><span> +</li>
-                        <li><a href="#">Contacts</a><span> +</li>
+                        <li><a href="#contacts">Contacts</a><span> +</li>
                     </ul>
                 </nav>
 
@@ -199,64 +199,73 @@
 
             <section id="contacts">
 
-                <form>
-                    <fieldset>
-                        <legend>Contact us</legend>
+                <div class="info-address">
+                    <h3>
+                        Contact us
+                    </h3>
 
-                        <div class="forms-item-group">
-                            <div>
-                                <label for="name">Name: </label>
-                                <input type="text" name="name" id="name" required>
-                            </div>
+                    <div class="container-adr">
+                        <p class="subtitle-container-adr">
+                            Our Address
+                        </p>
 
-                            <div>
-                                <label for="lastname">Last Name: </label>
-                                <input type="text" name="lastname" id="lastname" required>
-                            </div>
-                        </div>
+                        <address>
+                            <p>1324 State St, Santa Barbara - California</p>
+                            <p>Postal Code - 93109</p>
+                        </address>
+                    </div>
 
-                        <div class="forms-item-group">
-                            <div>
-                                <label for="age">Age: </label>
-                                <input type="number" name="age" id="age" required>
-                            </div>
+                    <hr>
 
-                            <div>
-                                <label for="phone">Phone: </label>
-                                <input type="tel" name="phone" id="phone" required>
-                            </div>
-                        </div>
+                    <div class="container-cont">
+                        <p class="subtitle-container-cont">
+                            Our Contacts
+                        </p>
+
+                        <p>atendimento@cawesi.com.br</p>
+                        <p>+55 11 90000 - 0000</p>
+                    </div>
+                </div>
+
+                <div class="container-forms">
+
+                    <form>
                         
-                        
-                        <div class="forms-item-group email-item-topic">
+                        <h4>Let's talk</h4>
+                    
+                       <input type="text" placeholder="Name" name="name" id="name">
+                       <input type="email" placeholder="E-mail" name="email" id="email">
+                       <input type="tel" placeholder="Phone" name="phone" id="phone">
+                       <input type="feedback" placeholder="Leave your comment" id="comment">
+
+                        <div class="container-btns-forms">
+                            <div class="box-btn-forms">
+                                <div>
+                                    <img src="./image/cloud-computing.png" class="container-forms-img" alt="Icon upload file">
+                                </div>
+                                <div>
+                                    <a href="#">Upload File</a>
+                                </div>
+                            </div>
+
                             <div>
-                                <label for="email">E-mail: </label>
-                                <input type="email" name="email" id="email" required>
+                                <a href="#">
+                                    <input type="submit" value="Send Message --" class="btn-form-send">
+                                </a>
                             </div>
                         </div>
-
-                        <textarea name="comentary" placeholder="Leave your comment" id="comentary" cols="30" rows="10" required></textarea>
-
-                        <input type="submit" value="Send" class="btn-send">
-                    </fieldset>
-                </form>
-
-                <div class="subscribe-container">
-                    <p class="started">
-                        STARTED FOR FREE
-                    </p>
-
-                    <p class="create-account">
-                        CREATE A NEW ACCOUNT.
-                    </p>
-
-                    <p class="login-container">
-                        Alredy A Member? <strong>Log in</strong>
-                    </p>
+                    </form>
 
                 </div>
+               
             </section>
         </main>
+
+        <footer>
+            <div>
+                &copy; Todos os direitos reservados - Cawesi 2023
+            </div>
+        </footer>
     </div>
     
 </body>
