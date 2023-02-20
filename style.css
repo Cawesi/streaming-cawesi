@@ -46,6 +46,7 @@ header {
 
 .container-menu a {
     text-decoration: none;
+    font-size: small;
     font-weight: 500;
     color: white;
 }
@@ -60,7 +61,7 @@ header {
 }
 
 .link-sign {
-    padding: 4px 8px;
+    padding: 3px 8px;
     border-radius: 6px;
     background-color: rgba(255, 255, 255, 0.3);
 }
@@ -68,18 +69,14 @@ header {
 .partners {
     width: 100%;
     padding: 8px 0;
-    margin-top: 15px;
-}
-
-.partners img {
-    height: 22px;
-}
-
-.partners {
     display: flex;
     align-items: center;
     justify-content: space-around;
     list-style: none;
+}
+
+.partners img {
+    height: 16px;
 }
 
 .container-partner {
@@ -90,13 +87,13 @@ header {
 
 .partners div, .container-partner div {
     font-family: 'Roboto', sans-serif;
+    font-size: small;
     font-weight: 600;
     color: #777777;
 }
 
 .main-content {
     width: 100%;
-    margin-top: 50px;
 }
 
 .main-content section {
@@ -104,7 +101,10 @@ header {
 }
 
 .music-content {
-    padding: 60px 20px;
+    padding: 10px 20px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .item-notification {
@@ -130,8 +130,8 @@ header {
 }
 
 .music-image {
-    width: 70%;
-    padding: 60px 20px;
+    width: 60%;
+    padding: 38px 20px;
     border-radius: 0 12px 12px 0;
     background: linear-gradient(165deg, #38A2D6, #551138);
 }
@@ -141,7 +141,7 @@ header {
 }
 
 .music-image img {
-    width: 70%;
+    width: 60%;
 }
 
 h1 {
@@ -160,12 +160,37 @@ h1 {
 
 .btn-app {
     display: flex;
+    column-gap: 20px;
+    align-items: center;
 }
 
 .content-btn {
     display: flex;
+    column-gap: 5px;
 }
 
 .content-btn img {
     height: 16px;
+}
+
+.btn-app button {
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-weight: 700;
+    background: linear-gradient(165deg, #38A2D6, #551138);
+}
+
+.btn-app div {
+    font-size: small;
+}
+
+.content-btn a {
+    color: #242a3a;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
 }
